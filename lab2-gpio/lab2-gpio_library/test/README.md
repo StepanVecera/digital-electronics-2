@@ -18,8 +18,8 @@
    | **Version** | **Size [B]** |
    | :-- | :-: |
    | Arduino-style     | 508 |
-   | Registers         | 182 |
-   | Library functions |  |
+   | Registers         | 188 |
+   | Library functions | 182 |
 
 ### Traffic light
 
