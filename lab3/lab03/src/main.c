@@ -29,13 +29,13 @@ int main(void)
 }
 
 // Interrupt service routines
-ISR(TIMER2_OVF_vect)
+ISR(TIMER1_OVF_vect)
 {
   //if (PIND0 & (1<<BUTTON))
   //{
       //PORTB ^= (1<<LED_GREEN);
       //PORTB ^= (1<<LED_RED);
   //}
-  PORTB = PORTB ^ (1<<LED_GREEN);
+  PORTB = PORTB ^ (1<<LED_RED);
   //PORTB = PORTB ^ (1<<LED_RED);
 }
