@@ -1,5 +1,4 @@
-# Lab 5: INSERT_YOUR_FIRSTNAME INSERT_YOUR_LASTNAME
-
+# Lab 5: Štěpán Večeřa
 ### Analog-to-Digital Conversion
 
 1. Complete table with voltage divider, calculated, and measured ADC values for all five push buttons.
@@ -19,8 +18,11 @@ Consider an application for temperature measurement. Use analog temperature sens
 
 2. Draw a schematic of temperature meter. The image can be drawn on a computer or by hand. Always name all components and their values.
 
-   ![your figure]()
+   
+![schematic for temp](https://user-images.githubusercontent.com/99388270/199323801-7073c06c-8533-46f6-90f4-704cb6afed2d.png)
 
 3. Draw two flowcharts for interrupt handler `TIMER1_OVF_vect` (which overflows every 1&nbsp;sec) and `ADC_vect`. The image can be drawn on a computer or by hand. Use clear descriptions of the individual steps of the algorithms.
 
-   ![your figure]()
+  
+![flow chart TIMER](https://user-images.githubusercontent.com/99388270/199323826-0234a074-6134-4d8c-9919-8b9ba810a6dc.jpg)
+![flow chart ADC](https://user-images.githubusercontent.com/99388270/199323839-ef6223ba-ef0e-4641-a7b6-20b9269e83a9.jpg)
